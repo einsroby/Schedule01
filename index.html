@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Call Center Schedule</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Call Center Schedule</h1>
+  <h3>Pay Period: <span id="paystart"></span></h3>
+  <p>Last update: </p>
+<script>
+document.getElementById("last-updated").innerText = document.lastModified;
+</script>
+
+  <table id="schedule-table">
+    <tr>
+      <th id="nothing"></th>
+      <th>SUN</th>
+      <th>MON</th>
+      <th>TUE</th>
+      <th>WED</th>
+      <th>THU</th>
+      <th>FRI</th>
+      <th>SAT</th>
+      <th>SUN</th>
+      <th>MON</th>
+      <th>TUE</th>
+      <th>WED</th>
+      <th>THU</th>
+      <th>FRI</th>
+      <th>SAT</th>
+    </tr>
+    <tr class="date">
+
+    </tr>
+    <tr>
+      <td>Janet Abraham</td>
+      <td>X</td>
+      <td>X</td>
+      <td>M</td>
+      <td>M</td>
+      <td>E</td>
+      <td>E</td>
+      <td>E</td>
+      <td>E</td>
+      <td>X</td>
+      <td>E</td>
+      <td>M</td>
+      <td>M</td>
+      <td>X</td>
+      <td>E</td>
+    </tr>
+    <tr>
+      <td>Gary Olter</td>
+      <td>X</td>
+      <td>X</td>
+      <td>D</td>
+      <td>D</td>
+      <td>D</td>
+      <td>D</td>
+      <td>E</td>
+      <td>E</td>
+      <td>X</td>
+      <td>X</td>
+      <td>M</td>
+      <td>M</td>
+      <td>D</td>
+      <td>D</td>
+    </tr>
+    <tr>
+      <td>Brandon Skilling</td>
+      <td>X</td>
+      <td>X</td>
+      <td>M</td>
+      <td>M</td>
+      <td>D</td>
+      <td>D</td>
+      <td>D</td>
+      <td>PM</td>
+      <td>PM</td>
+      <td>X</td>
+      <td>D</td>
+      <td>X</td>
+      <td>M</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>Elden Pretrick</td>
+      <td>M</td>
+      <td>M</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lerihn Roby</td>
+      <td>X</td>
+      <td>X</td>
+      <td>D</td>
+      <td>D</td>
+      <td>E</td>
+      <td>E</td>
+      <td>X</td>
+      <td>X</td>
+      <td>D</td>
+      <td>D</td>
+      <td>D</td>
+      <td>E</td>
+      <td>E</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Jusmen Amusten</td>
+      <td>M</td>
+      <td>M</td>
+      <td>D</td>
+      <td>D</td>
+      <td>D</td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td>M</td>
+      <td>D</td>
+      <td>D</td>
+      <td>D</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Parton Hebel</td>
+      <td>E</td>
+      <td>E</td>
+      <td>X</td>
+      <td>X</td>
+      <td>M</td>
+      <td>M</td>
+      <td>D</td>
+      <td>D</td>
+      <td>E</td>
+      <td>M</td>
+      <td>X</td>
+      <td>X</td>
+      <td>E</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>Margitha Ioanis</td>
+      <td>E</td>
+      <td>E</td>
+      <td>X</td>
+      <td>X</td>
+      <td>M</td>
+      <td>M</td>
+      <td>D</td>
+      <td>D</td>
+      <td>E</td>
+      <td>E</td>
+      <td>X</td>
+      <td>X</td>
+      <td>D</td>
+      <td>D</td>
+    </tr>
+    <tr>
+      <td>Rosenda Ladore</td>
+      <td>E</td>
+      <td>PM</td>
+      <td>X</td>
+      <td>X</td>
+      <td>D</td>
+      <td>D</td>
+      <td>E</td>
+      <td>X</td>
+      <td>X</td>
+      <td>PM</td>
+      <td>D</td>
+      <td>D</td>
+      <td>E</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Monica Jebehn</td>
+      <td>D</td>
+      <td>D</td>
+      <td>E</td>
+      <td>E</td>
+      <td>X</td>
+      <td>X</td>
+      <td>M</td>
+      <td>M</td>
+      <td>X</td>
+      <td>X</td>
+      <td>E</td>
+      <td>E</td>
+      <td>M</td>
+      <td>D</td>
+    </tr>
+    <tr>
+      <td>Frieda Abraham</td>
+      <td>D</td>
+      <td>D</td>
+      <td>E</td>
+      <td>E</td>
+      <td>X</td>
+      <td>X</td>
+      <td>M</td>
+      <td>M</td>
+      <td>D</td>
+      <td>D</td>
+      <td>E</td>
+      <td>E</td>
+      <td>X</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>Michael Panuelo</td>
+      <td>D</td>
+      <td>D</td>
+      <td>PM</td>
+      <td>PM</td>
+      <td>D</td>
+      <td>D</td>
+      <td>X</td>
+      <td>X</td>
+      <td>D</td>
+      <td>D</td>
+      <td>D</td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Einstein Roby</td>
+      <td>X</td>
+      <td>D</td>
+      <td>D</td>
+      <td>D</td>
+      <td>PM</td>
+      <td>PM</td>
+      <td>X</td>
+      <td>X</td>
+      <td>M</td>
+      <td>M</td>
+      <td>PM</td>
+      <td>PM</td>
+      <td>PM</td>
+      <td>X</td>
+    </tr>
+  </table>
+  </div>
+  <button onclick="enableEditing()">Edit Schedule</button> 
+  <button onclick="saveChanges()">Save</button>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

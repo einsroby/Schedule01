@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+
+
+table {
+  border: 2px;
+  border-style: solid;
+  width: auto;
+  margin: 20px auto;
+}
+
+#nothing {
+background-color: #f2f2f2;
+border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.completed-days {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#completed-days {
+  font-weight: bold;
+  color: #3498db;
+}
